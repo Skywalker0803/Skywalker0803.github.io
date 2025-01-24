@@ -739,8 +739,8 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#6647b9"
-  paginator: "#a993e7"
+  main: "#7b64d1"
+  paginator: "#7b64d1"
   button_hover: "#7d66d3"
   text_selection: "#d8bff1"
   link_color: "#47369a"
