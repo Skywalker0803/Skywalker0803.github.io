@@ -741,7 +741,7 @@ theme_color:
   enable: true
   main: "#7b64d1"
   paginator: "#7b64d1"
-  button_hover: "#7d66d3"
+  button_hover: "#a894ea"
   text_selection: "#d8bff1"
   link_color: "#47369a"
   # meta_color: "#858585"
