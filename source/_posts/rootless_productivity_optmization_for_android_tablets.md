@@ -30,4 +30,4 @@ tags:
 2. 进去之后会有一个协议，拉到最底下然后关掉（直接关不行哒QwQ）
 3. 在[这个链接](https://www.123865.com/s/PBdSVv-BTK8H)里边找到TMOE_BASE_CONTAINER.tar.gz，下载，保存到内部存储/xinhao/data文件夹里面，如果没有就新建一个
 注意：ZeroTermux的权限一定要给足！尤其要给内部存储权限！否则后续可能会检测不到恢复包！如果你用的是和我一样的澎湃OS，无论如何也检测不到，那恭喜你，你可以直接按照酷安[@大龙爪子021] 的[这篇帖子](https://www.coolapk.com/feed/52976234?shareKey=YWZiYTUxZDNhYzI5Njc5NDg5N2I~&shareUid=34000961&shareFrom=com.coolapk.market_15.0.2) 安装TMOE并跳过步骤4了，唯一要补充说明的是启用一言的那块我建议选no，这样能少装一个依赖，容器加载速度也能快一点😋
-4. 从屏幕上三分之一以内的屏幕左边缘往右滑，可以避免触发全面屏手势（大部分系统是这样的），点击备份与恢复![来自 @大龙爪子021 的图片](../_imgs/zerotermux_homepage_sidebar.jpeg)
+4. 从屏幕上三分之一以内的屏幕左边缘往右滑，可以避免触发全面屏手势（大部分系统是这样的），点击备份与恢复![来自 @大龙爪子021 的图片](/images/zerotermux_homepage_sidebar.jpeg)
