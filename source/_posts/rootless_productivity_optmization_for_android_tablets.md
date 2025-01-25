@@ -62,11 +62,12 @@ cover: /images/rootless_productivity_optmization_for_android_tablets/cover.jpeg
 ### LazyVim 安装
 
 用其他语言的兄弟们跟着我接着往下走
-先从![这个链接](https://www.123865.com/s/PBdSVv-nRi8H)下载我编译的Neovim最新版（旧版会报错），并在容器内输入以下命令：
+先从[这个链接](https://www.123865.com/s/PBdSVv-nRi8H)下载我编译的Neovim最新版（旧版会报错），并在容器内输入以下命令：
 ```bash
 cp ~/sd/neovim-0.11.0_arm64.deb .
 apt install ./neovim-0.11.0_arm64.deb
-rm /usr/local/bin/nvim  # 我在制作恢复包的时候脑子抽了一下，直接用的make install，导致可执行文件一直在/usr/local/bin/里面呆着，覆盖了默认的软件包可执行文件
+# 我在制作恢复包的时候脑子抽了一下，直接用的make install，导致可执行文件一直在/usr/local/bin/里面呆着，覆盖了默认的软件包可执行文件
+rm /usr/local/bin/nvim
 ```
 （⚠️ 注意：第二条命令尽量使用`apt install`而非`dpkg -i`，因为`apt`会自动检测并安装依赖，而`dpkg`不会，CSDN害人不浅）
 输入以下命令，克隆 LazyVim 官方配置到本地：
@@ -74,5 +75,5 @@ rm /usr/local/bin/nvim  # 我在制作恢复包的时候脑子抽了一下，直
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 rm -rf ~/.config/nvim/.git
 ```
-然后输入`nvim`启动，初次加载需要从GitHub上下载文件📃，如果网络不好或者不会mofa的话需要多失败几次
+然后输入`nvim`启动，初次加载需要从GitHub上下载文件📃，如果网络不好或者不会魔法的话需要多失败几次
 总之，此时你拥有了宇宙最强IDE（VS Code：你在说啥？😅）——LazyVim，enjoy！

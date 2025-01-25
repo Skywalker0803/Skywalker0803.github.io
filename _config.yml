@@ -7,6 +7,9 @@ title: Skywalker0803 的个人博客
 subtitle: '愿世间所有的的美好都被祝福'
 description: '用 Hexo + Butterfly 搭建的个人博客'
 keywords:
+  - 个人博客
+  - 技术
+  - 生活
 author: Skywalker0803
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -49,7 +52,7 @@ highlight:
   auto_detect: false
   tab_replace: ''
   wrap: true
-  hljs: true
+  hljs: false
 prismjs:
   preprocess: true
   line_number: true
